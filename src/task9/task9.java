@@ -81,14 +81,14 @@ public class task9 {
         Random ran3 = new Random();
         temp = temp + Integer.toString(ran3.nextInt(10));
 
-        // Random ran4 = new Random();
-        // temp = temp + Integer.toString(ran4.nextInt(10));
+        Random ran4 = new Random();
+        temp = temp + Integer.toString(ran4.nextInt(10));
 
-        // Random ran5 = new Random();
-        // temp = temp + Integer.toString(ran5.nextInt(10));
+        Random ran5 = new Random();
+        temp = temp + Integer.toString(ran5.nextInt(10));
 
-        // Random ran6 = new Random();
-        // temp = temp + Integer.toString(ran6.nextInt(10));
+        Random ran6 = new Random();
+        temp = temp + Integer.toString(ran6.nextInt(10));
 
         genNumber = Integer.parseInt(temp);
         System.out.println(genNumber);
